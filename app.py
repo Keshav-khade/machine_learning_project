@@ -5,8 +5,9 @@ import pandas as pd
 import requests
 import streamlit as st
 
-# TMDb API key
-API_KEY = "872b40c874c85d2536bc39e031404b0b"
+# fetch api key from render's environmental variable
+API_KEY = os.environ.get("API_KEY")
+
 
 # Download similarity.pkl from Google Drive if not present
 if not os.path.exists("similarity.pkl"):
