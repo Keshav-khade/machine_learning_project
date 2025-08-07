@@ -1,0 +1,18 @@
+# Ignore large files
+*.pkl
+*.csv
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
