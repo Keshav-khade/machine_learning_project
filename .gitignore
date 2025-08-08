@@ -1,5 +1,7 @@
 # Ignore large files
 *.pkl
+# But DO track this one
+!movie_dict.pkl
 *.csv
 
 # Ignore Python cache files
