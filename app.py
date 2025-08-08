@@ -12,7 +12,7 @@ API_KEY = os.environ.get("API_KEY")
 # Download similarity.pkl from Google Drive if not present
 if not os.path.exists("similarity.pkl"):
     file_id = "1SnFrHlMl3Rc1cl7PB_3ejpZtUS7k7_8P"
-    url = f"https://drive.google.com/uc?id={file_id}"
+    url ="https://drive.google.com/uc?id=1SnFrHlMl3Rc1cl7PB_3ejpZtUS7k7_8P"
     gdown.download(url, "similarity.pkl", quiet=False)
 
 # Load movie data and similarity matrix
